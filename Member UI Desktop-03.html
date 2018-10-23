@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+        <link href="css/style.css" rel="stylesheet">
+
+        <title>Super Soccer</title>
+    </head>
+    <body>
+        <div class="alert alert-success notif-success">
+            <button type="button" class="close" data-dismiss="alert">x</button>
+            <strong>Success! </strong>
+            Cek e-mail lo sekarang untuk menyelesaikan tahap berikutnya.<br>
+            Selamat browsing dengan Supersoccer Wifi.
+        </div>
+        <div class="link-box">
+            <a href="#">Klik di sini untuk memulai browsing <span>BROWSE</span></a>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background: #000000">
+            <a class="navbar-brand" href="#"><img src="asset/Logo.png" height="70px" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-left" href="Member%20UI%20Desktop-04.html"><img src="asset/Icon-22.png" class="ajita-icon-20"> History</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-left" href="Member%20UI%20Desktop-03.html"><img src="asset/Icon-19.png" class="ajita-icon-20"> Personal Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-left" href="Member%20UI%20Desktop-02.html"><img src="asset/Icon-24.png" class="ajita-icon-20"> Change Password</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Member%20UI%20Desktop-07.html"><img src="asset/Icon-23.png" class="ajita-icon-20"> Tukar</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">
+                            <img src="asset/Icon-20.png" class="ajita-icon-30">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="profile-box">
+            <div class="container">
+                <h4 class="text-center">Welcome</h4>
+                <div class="row">
+                    <div class="col-md-2 order-md-2 text-center">
+                        <div class="profile-pic" id="clickableLiElement">
+                            <img src="asset/Merchandise-16.jpg" class="profile-img">
+                            <div class="img-overlay">
+                                <a href="#" class="icon" title="User Profile">
+                                    <img src="asset/Icon%20Pensil-28.png">
+                                </a>
+                            </div>
+                        </div>
+                        <input type="file" id="theFileInput" accept="image/*" style="display: none">
+                    </div>
+                    <div class="col-md-5 order-md-1 profile-name">
+                        M Aldi Nur
+                        <br>
+                        Ibrahim
+                    </div>
+
+                    <div class="col-md-5 order-md-3 profile-point">
+                        My Points
+                        <br>
+                        <div class="point-box"><span>255</span> Pts</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="member">
+            <div class="container third-content">
+                <div class="offset-md-4 col-md-4 offset-sm-2 col-sm-8 content-box">
+                    <form>
+                        
+                        <div class="form-group">
+                            <label>Nama Lengkap</label>
+                            <input type="text" class="form-control" placeholder="Masukkan nama lengkap" required>
+                        </div>
+                        <div class="form-group">
+                            <label>E-mail</label>
+                            <input type="email" class="form-control" placeholder="Masukkan e-mail" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>
+                                No. Handphone
+                                <br><small>Masukkan no. handphone</small>
+                            </label> 
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="inputGroup-sizing-default">+62</span>
+                                </div>
+                                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Ex: 8229957xx">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Jenis Kelamin</label>
+                            <div class="row form-2">
+                                <div class="col-xs-6">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input"  type="radio" name="gender"> 
+                                        <label class="form-check-label">Laki-laki</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input"  type="radio" name="gender"> 
+                                        <label class="form-check-label">Perempuan</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Tanggal Lahir</label>
+                            <div class="row  form-2">
+                                <div class="col-xs-2">
+                                    <select class="form-control">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                        <option>7</option>
+                                        <option>8</option>
+                                        <option>9</option>
+                                        <option>10</option>
+                                        <option>11</option>
+                                        <option>12</option>
+                                        <option>13</option>
+                                        <option>14</option>
+                                        <option>15</option>
+                                        <option>16</option>
+                                        <option>17</option>
+                                        <option>18</option>
+                                        <option>19</option>
+                                        <option>20</option>
+                                        <option>21</option>
+                                        <option>22</option>
+                                        <option>23</option>
+                                        <option>24</option>
+                                        <option>25</option>
+                                        <option>26</option>
+                                        <option>27</option>
+                                        <option>29</option>
+                                        <option>30</option>
+                                        <option>31</option>
+                                    </select>
+                                </div>
+                                <div class="col-xs-5">
+                                    <select class="form-control">
+                                        <option>Januari</option>
+                                        <option>Februari</option>
+                                        <option>Maret</option>
+                                        <option>April</option>
+                                        <option>Mei</option>
+                                        <option>Juni</option>
+                                        <option>Juli</option>
+                                        <option>Agustus</option>
+                                        <option>September</option>
+                                        <option>Oktober</option>
+                                        <option>November</option>
+                                        <option>Desember</option>
+                                    </select>
+                                </div>
+                                <div class="col-xs-3">
+                                    <select class="form-control">
+                                        <option>2000</option>
+                                        <option>1999</option>
+                                        <option>1998</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Minat</label>
+                            <br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" value="option1">
+                                <label class="form-check-label">Music</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" value="option2">
+                                <label class="form-check-label">Soccer</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" value="option3">
+                                <label class="form-check-label">Adventure</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Minat yang lain-lain">
+                        </div>
+                        
+                        <button class="btn btn-secondary">UPDATE</button>
+                    </form>
+
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="footer offset-sm-3 col-sm-6">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <ul class="nav justify-content-center">
+                                <li class="nav-item">
+                                    <a class="nav-link link-white" href="#"><i class="fab fa-facebook"></i> supersoccer</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link link-white" href="#"><i class="fab fa-twitter"></i> supersoccer</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link link-white" href="#"><i class="fab fa-instagram"></i> supersoccer</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 text-center copyright">
+                            Login system by Retinad &copy; 2018
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script>
+            $('#clickableLiElement').click(function() {
+                $('#theFileInput').click();
+            });
+            
+            $(document).on('change','#theFileInput',function(e){
+                var data = new FormData();
+                data.append('image', $(this)[0].files[0]);
+
+                $( document ).ajaxStart(function() {
+                    $( ".klik" ).text('Loading...');
+                }).ajaxStop(function() {
+                    $( ".klik" ).text('Submit');
+                });
+                $.ajax({
+                    'type': 'POST',
+                    'url': "[url]",
+                    'data': data,
+                    'processData': false,
+                    'contentType': false,
+                    'cache': false,
+                    success: function(response) {
+                        console.log(response)
+                        if(response == 'success'){
+                            if (this.files && this.files[0]) {
+                                var reader = new FileReader();
+                                reader.onload = function (e) {
+                                    $('.profile-img').attr('src', e.target.result);
+                                }
+                                reader.readAsDataURL(this.files[0]);
+                            }
+                            
+                            alert('Success')
+                        }
+                        else{
+                            alert("error")
+                        }
+                    }
+                });
+            });
+            
+            $(".alert").delay(5000).slideUp(200, function() {
+                $(this).alert('close');
+            });
+        </script>
+    </body>
+</html>
