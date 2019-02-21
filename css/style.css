@@ -465,7 +465,7 @@ display: block;
 }
 
 .merchandise-list .col-md-6 .media:hover{
-    box-shadow: 2px 2px #cccccc; 
+    box-shadow:  5px 5px 5px -3px rgba(204,204,204,1); 
 }
 
 .merchandise-list .media img{
@@ -482,7 +482,7 @@ display: block;
 }
 .link-merchandise{
     font-weight: 700;
-    color: #d1161f
+    color: #d1161f;
 }
 .link-merchandise:hover{
     color: #373738
@@ -603,4 +603,17 @@ margin-bottom: 10px;
 
 .otpform i{
     font-size: 12px
+}
+
+
+.redeemdate,.redeemstatus{
+    font-size: 12px;
+    color: #a1a1a1;
+    font-weight: 600
+}
+.redeemstatus.packaging{
+    color: #FFC107
+}
+.redeemstatus.complete{
+    color: #28A745
 }
